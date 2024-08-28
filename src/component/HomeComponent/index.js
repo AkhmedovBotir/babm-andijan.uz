@@ -1,0 +1,6 @@
+export { default as BodyHome} from "./body/BodyHome"
+export { default as HomeCard} from "./home-card/home-card"
+export { default as NewsSlider } from "./NewsSlider/NewsSlider"
+export { default as LifeComp } from "./LifeComp/LifeComp"
+export { default as Range } from "./Range/Range"
+export { default as Links } from "./Links/Links"

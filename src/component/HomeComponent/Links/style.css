@@ -1,0 +1,35 @@
+/* .cardlink img{
+    width: 50%;
+    margin-top: -5rem;
+}
+.link-sub{
+    width: 80%;
+    font-size: .8rem;
+}
+.linkcard{
+    margin-bottom: -5rem !important;
+} */
+.linkcard {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-around;
+}
+
+.cardlink {
+    width: 30%;
+}
+
+.cardlinkbody {
+    width: 40%;
+}
+.cardlinkbody a {
+    color: #003970;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.link-sub {
+    font-weight: 400;
+    font-size: .9rem;
+}

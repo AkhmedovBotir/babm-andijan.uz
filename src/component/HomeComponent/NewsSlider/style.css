@@ -1,0 +1,30 @@
+.news-bg {
+    background-color: #f2f2f2;
+}
+
+.cardtitle {
+    font-size: 1rem;
+}
+
+.card-card {
+    height: 27rem !important;
+}
+
+.slick-slide div {
+    margin: .5rem;
+}
+.slick-arrow::before{
+    color: #000;
+}
+
+.cardsub{
+    font-size:.8rem;
+    color: #999;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}

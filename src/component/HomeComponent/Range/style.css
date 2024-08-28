@@ -1,0 +1,27 @@
+.range-left{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.range-card{
+    width: 45% !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iconrange svg{
+    font-size: 7rem;
+    color: #003970;
+}
+.range-card-right{
+    display: flex;
+    flex-direction: column;
+}
+.cl{
+    color: #b61627;
+    font-size: 2rem !important;
+}
+.cc{
+    font-size: 1rem;
+}

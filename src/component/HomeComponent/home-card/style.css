@@ -1,0 +1,21 @@
+.card-home-two{
+    height: 100%;
+}
+.card-home-two,
+.card-home-one{
+    box-shadow: 1px 1px 10px 1px #44444446;
+}
+.title-card{
+    font-weight: 800;
+    width: 80%;
+    color: #003970;
+    font-size: 1.1rem;
+}
+.title-cards{
+    font-weight: 800;
+    color: #003970;
+    font-size: .9rem;
+}
+.card-subs{
+    font-size: .9rem;
+}
