@@ -1,0 +1,41 @@
+.about-sidebar {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.aboutheader {
+    background-image: url("../../../img/aboutpng.png");
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: local;
+}
+
+.sidebar-menu-img {
+    width: 2.5rem;
+}
+
+.sidebar-a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar-a:hover {
+    background-color: #fff;
+    color: #003970;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    border-radius: 101rem;
+    font-weight: 900;
+}
+#sidebar .actives{
+    background-color: #fff !important;
+    color: #003970 !important;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+    transition: all 0.3s ease !important;
+    border-radius: 101rem !important;
+    font-weight: 900 !important;
+
+}

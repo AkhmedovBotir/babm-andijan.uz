@@ -1,11 +1,11 @@
 import React from 'react'
-import {AboutHeader} from "../component/AboutComponent"
 import { FooterMenu, NavbarMenu } from "../component"
-export default function About() {
+import { GoalHeader } from '../component/AboutComponent/GoalAbout'
+export default function GoalAbout() {
   return (
     <div>
       <NavbarMenu />
-      <AboutHeader />
+      <GoalHeader />
       <FooterMenu />
     </div>
   )

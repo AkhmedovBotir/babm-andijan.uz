@@ -1,0 +1,1 @@
+export { default as GoalHeader } from "./GoalHeader/GoalHeader"

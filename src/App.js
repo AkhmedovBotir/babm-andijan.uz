@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { About, Contact, Home, Life, NoPage, Press } from './pages'
+import { About, Contact, Goals, Home, Life, NoPage, Organizational, Press, Staff } from './pages'
 
 export default function App() {
   const router = [
@@ -39,6 +39,24 @@ export default function App() {
       path: '/*',
       name: 'NoPage',
       component: <NoPage />
+    },
+    {
+      id: 7,
+      path: "/about/goals",
+      name: "Goals",
+      component: <Goals />
+    },
+    {
+      id: 8,
+      path: "/about/organizational",
+      name: "Organizational",
+      component: <Organizational />
+    },
+    {
+      id: 9,
+      path: "/about/staff",
+      name: "Staff",
+      component: <Staff />
     }
   ]
   return (

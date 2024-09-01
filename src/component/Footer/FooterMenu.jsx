@@ -6,7 +6,7 @@ import CallIcon from '@mui/icons-material/Call';
 
 export default function FooterMenu() {
   return (
-    <div className='footer mt-5 py-3 pt-5'>
+    <div className='footer py-3 pt-5'>
       <Container>
         <Row className='d-flex justify-content-between'>
           <div className='col-4'>

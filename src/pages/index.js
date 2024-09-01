@@ -4,3 +4,7 @@ export { default as Life } from "./Life"
 export { default as Press } from "./Press"
 export { default as Contact } from "./Contact"
 export { default as NoPage } from "./NoPage"
+
+export { default as Goals } from "./Goals"
+export { default as Organizational } from "./Organizational"
+export { default as Staff } from "./Staff"
